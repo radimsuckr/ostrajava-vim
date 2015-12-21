@@ -14,8 +14,8 @@ syn match ostrajavaLanguageNumber '\d\+' display
 syn match ostrajavaLanguageNumber '[-+]\d\+' display
 
 " cyslo_desetinne
-syn match ostrajavaLanguageNumber '\d\+\.\d*' contained display
-syn match ostrajavaLanguageNumber '[-+]\d\+\.\d*' contained display
+syn match ostrajavaLanguageNumber '\d\+\.\d*' display
+syn match ostrajavaLanguageNumber '[-+]\d\+\.\d*' display
 
 " Dryst
 syn region ostrajavaLanguageString start='"' end='"'
