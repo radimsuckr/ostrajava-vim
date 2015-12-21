@@ -22,8 +22,8 @@ syn region ostrajavaLanguageString start='"' end='"'
 syn region ostrajavaLanguageString start='\'' end='\''
 
 " comments
-syn region ostrajavaLanguageComment start='//' end=+=+ oneline
-syn region ostrajavaLanguageComment start='/*' end='*/' contained
+syn match ostrajavaLanguageComment '\v//.*$'
+syn region ostrajavaLanguageComment start='/\*' end='\*/'
 
 " Syntax coloring
 let b:current_syntax='ostrajava'
