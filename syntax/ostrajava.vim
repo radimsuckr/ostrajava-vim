@@ -10,16 +10,16 @@ syn keyword ostrajavaLanguageSpecialMarkers fajne nyt chuj
 syn keyword ostrajavaLanguageSTDClasses Dryst Bazmek Citac Konzola Bafr
 
 " cyslo
-syn match ostrajavaLanguageNumber '\d\+' contained display
-syn match ostrajavaLanguageNumber '[-+]\d\+' contained display
+syn match ostrajavaLanguageNumber '\d\+' display
+syn match ostrajavaLanguageNumber '[-+]\d\+' display
 
 " cyslo_desetinne
 syn match ostrajavaLanguageNumber '\d\+\.\d*' contained display
 syn match ostrajavaLanguageNumber '[-+]\d\+\.\d*' contained display
 
 " Dryst
-syn region ostrajavaLanguageString start='"' end='"' contained
-syn region ostrajavaLanguageString start='\'' end='\'' contained
+syn region ostrajavaLanguageString start='"' end='"'
+syn region ostrajavaLanguageString start='\'' end='\''
 
 " comments
 syn region ostrajavaLanguageComment start='//' end=+=+ oneline
