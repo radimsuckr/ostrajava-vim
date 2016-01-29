@@ -4,7 +4,7 @@ if exists('b:current_syntax')
 	finish
 endif
 
-syn keyword ostrajavaLanguageKeywords banik fajront tryda toz kaj kajtez boinak pyco rubat zdybat dlabat fagan od joch forant zrob davaj
+syn keyword ostrajavaLanguageKeywords banik fajront tryda toz kaj kajtez ci aj boinak pyco rubat zdybat dlabat fagan od joch forant zrob davaj
 syn keyword ostrajavaLanguageTypes cyslo bul chachar cyslo_desetinne
 syn keyword ostrajavaLanguageSpecialMarkers fajne nyt chuj
 syn keyword ostrajavaLanguageSTDClasses Dryst Bazmek Citac Konzola Bafr
